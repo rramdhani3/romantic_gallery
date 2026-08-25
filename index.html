@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A little gallery of someone special." />
+  <title>Her — Our Little Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="theme-green" data-birthday="2005-03-17T00:00:00">
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      our little archive
+    </a>
+
+    <nav class="page-nav" aria-label="Navigasi halaman">
+      <a class="nav-link active" href="index.html">Her</a>
+      <a class="nav-link" href="me.html">Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-reveal">
+      <div class="hero-photo-wrap">
+        <div class="photo-frame hero-photo">
+          <img src="images/partner/hero.jpg" alt="Foto utama" />
+          <div class="image-fallback">YOUR<br>PHOTO</div>
+        </div>
+        <span class="photo-tag">01 / HER</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">a piece of my world</p>
+        <h1>Theona <em>Elisya</em></h1>
+        <p class="hero-description">
+          Seseorang yang membuat hari-hari terasa lebih istimewa.
+        </p>
+
+        <div class="details">
+          <div class="detail">
+            <span>Birthday</span>
+            <strong>17 Maret 2005</strong>
+          </div>
+          <div class="detail">
+            <span>Education</span>
+            <strong>UNJ - Psikologi</strong>
+          </div>
+        </div>
+
+        <div class="countdown-card">
+          <div>
+            <span class="countdown-label">next birthday in</span>
+            <strong id="countdown-title">Counting the days...</strong>
+          </div>
+          <div class="countdown" id="countdown">
+            <div><b data-unit="days">00</b><span>days</span></div>
+            <i>:</i>
+            <div><b data-unit="hours">00</b><span>hours</span></div>
+            <i>:</i>
+            <div><b data-unit="minutes">00</b><span>min</span></div>
+            <i>:</i>
+            <div><b data-unit="seconds">00</b><span>sec</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-heading section-reveal">
+        <div>
+          <p class="eyebrow">memories, moments, little things</p>
+          <h2>Gall<em>ery</em></h2>
+        </div>
+        <span class="gallery-count">06 memories</span>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item item-tall section-reveal">
+          <img src="images/partner/01.jpg" alt="Memory 01" loading="lazy">
+          <figcaption><span>01</span><span>favorite frame</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-wide section-reveal">
+          <img src="images/partner/02.jpg" alt="Memory 02" loading="lazy">
+          <figcaption><span>02</span><span>soft afternoon</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item section-reveal">
+          <img src="images/partner/03.jpg" alt="Memory 03" loading="lazy">
+          <figcaption><span>03</span><span>little smile</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-tall section-reveal">
+          <img src="images/partner/04.jpg" alt="Memory 04" loading="lazy">
+          <figcaption><span>04</span><span>somewhere with you</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-wide section-reveal">
+          <img src="images/partner/05.jpg" alt="Memory 05" loading="lazy">
+          <figcaption><span>05</span><span>another day</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item section-reveal">
+          <img src="images/partner/06.jpg" alt="Memory 06" loading="lazy">
+          <figcaption><span>06</span><span>my favorite person</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="closing section-reveal">
+      <span class="closing-line"></span>
+      <p>made with a little bit of love</p>
+      <span class="closing-heart">♡</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026</span>
+    <span>our little archive</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

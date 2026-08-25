@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A little gallery about me." />
+  <title>Me — Our Little Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="theme-orange" data-birthday="2002-12-03T00:00:00">
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-dot"></span>
+      our little archive
+    </a>
+
+    <nav class="page-nav" aria-label="Navigasi halaman">
+      <a class="nav-link" href="index.html">Me</a>
+      <a class="nav-link active" href="me.html">Him</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-reveal">
+      <div class="hero-photo-wrap">
+        <div class="photo-frame hero-photo">
+          <img src="images/me/hero.jpg" alt="Foto utama" />
+          <div class="image-fallback">YOUR<br>PHOTO</div>
+        </div>
+        <span class="photo-tag">02 / HIM</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">the other half of this little archive</p>
+        <h1>Rizky <em>Ramdhani</em></h1>
+        <p class="hero-description">
+          Sedikit tentang diriku, hal-hal yang kusukai, dan potongan kecil dari perjalanan ini.
+        </p>
+
+        <div class="details">
+          <div class="detail">
+            <span>Birthday</span>
+            <strong>03 Desember 2002</strong>
+          </div>
+          <div class="detail">
+            <span>Education</span>
+            <strong>UNEJ - Informatika</strong>
+          </div>
+        </div>
+
+        <div class="countdown-card">
+          <div>
+            <span class="countdown-label">next birthday in</span>
+            <strong id="countdown-title">Counting the days...</strong>
+          </div>
+          <div class="countdown" id="countdown">
+            <div><b data-unit="days">00</b><span>days</span></div>
+            <i>:</i>
+            <div><b data-unit="hours">00</b><span>hours</span></div>
+            <i>:</i>
+            <div><b data-unit="minutes">00</b><span>min</span></div>
+            <i>:</i>
+            <div><b data-unit="seconds">00</b><span>sec</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-heading section-reveal">
+        <div>
+          <p class="eyebrow">a collection of little moments</p>
+          <h2>Gall<em>ery</em></h2>
+        </div>
+        <span class="gallery-count">06 memories</span>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item item-wide section-reveal">
+          <img src="images/me/01.jpg" alt="Memory 01" loading="lazy">
+          <figcaption><span>01</span><span>one ordinary day</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-tall section-reveal">
+          <img src="images/me/02.jpg" alt="Memory 02" loading="lazy">
+          <figcaption><span>02</span><span>good times</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item section-reveal">
+          <img src="images/me/03.jpg" alt="Memory 03" loading="lazy">
+          <figcaption><span>03</span><span>just me</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-wide section-reveal">
+          <img src="images/me/04.jpg" alt="Memory 04" loading="lazy">
+          <figcaption><span>04</span><span>somewhere else</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item item-tall section-reveal">
+          <img src="images/me/05.jpg" alt="Memory 05" loading="lazy">
+          <figcaption><span>05</span><span>another memory</span></figcaption>
+        </figure>
+
+        <figure class="gallery-item section-reveal">
+          <img src="images/me/06.jpg" alt="Memory 06" loading="lazy">
+          <figcaption><span>06</span><span>keep this one</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="closing section-reveal">
+      <span class="closing-line"></span>
+      <p>two pages, one little story</p>
+      <span class="closing-heart">♡</span>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026</span>
+    <span>our little archive</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
