@@ -525,6 +525,15 @@ h2 em {
   transform: translateY(-30px);
 }
 
+.gallery-item:nth-child(7) {
+  transform: rotate(5deg);
+}
+
+
+.gallery-item:nth-child(8) {
+  transform: rotate(-6deg);
+}
+
 .gallery-item img {
   width: 100%;
   height: 100%;
